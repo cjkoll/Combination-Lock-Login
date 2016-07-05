@@ -1,0 +1,101 @@
+/*
+ Copyright 2016 Chris Koll Tampa Bay Web Design (info@tampabay-webdesign.com).
+ All rights reserved.
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+ 
+*/ 
+body {
+    
+}
+@font-face
+{
+font-family: digital-7;
+src: url(font/digital-7.ttf);
+
+}
+@font-face
+{
+font-family: DIGITALDREAMFAT;
+src: url(font/DIGITALDREAMFAT.ttf);
+
+}
+.combo-box {
+    width: 450px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.code { 
+    height: 40px;
+    line-height: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-family: digital-7;
+    margin-bottom: 15px;
+    border: solid #000000 1px;
+    border-radius: 3px;
+    background-color: #0F1620;
+  
+    
+}
+.combo {
+	width: 254px;
+	height: 320px;
+	margin: 0 auto;
+	border: solid #ccc 1px;
+	padding: 50px;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 2px 2px #E7E7E7;
+	box-shadow: 2px 2px 2px 2px #E7E7E7;
+        background: #eeeeee;
+        background: -moz-linear-gradient(top,  #eeeeee 0%, #e2e2e2 100%); 
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#e2e2e2));
+        background: -webkit-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%);
+        background: -o-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%);
+        background: -ms-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%); 
+        background: linear-gradient(to bottom,  #eeeeee 0%,#e2e2e2 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+}
+.combo-btn {
+    height: 45px;
+    width: 44px;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    font-family: digital-7;
+}
+.combo-btn-right {
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    clear: both;
+}
+.footer {
+    margin-top: 100px !important;
+    height: 160px;
+   
+}
+.push_center {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
